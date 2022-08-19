@@ -1,7 +1,7 @@
-﻿int[] mas = new int[12];
+﻿int[] mas = new int[123];
 Random rand = new Random();
 int countPosition = 0;
-for (int i = 0; i < 12; i++)
+for (int i = 0; i < 123; i++)
 {
     mas[i] = rand.Next(-100, 100);
     Console.Write($"{mas[i]} ");
